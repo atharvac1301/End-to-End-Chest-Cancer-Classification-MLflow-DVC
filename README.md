@@ -14,4 +14,27 @@
 9. Update the dvc.yaml
 
 
+## MLflow
+- [Docs](https://www.mlflow.org/docs/2.3.1/index.html#)
+
+#### cmd
+- mlflow ui
+
+
+### Dagshub
+[dagshub](https://dagshub.com/)
+
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/atharvac1301/End-to-End-Chest-Cancer-Classification-MLflow-DVC.mlflow
+
+export MLFLOW_TRACKING_USERNAME=atharvac1301
+
+export MLFLOW_TRACKING_PASSWORD=fcc56715d30099c587b900a8711bff8195c6cc1a
+
+
+```
+
+
 
