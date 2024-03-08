@@ -5,7 +5,6 @@ from cnnClassifier.pipeline.stage_03_model_trainer import ModelTrainingPipeline
 from cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
 
 
-"""
 
 STAGE_NAME = "Data Ingestion Stage"
 try:
@@ -41,8 +40,6 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
-    
-"""
 
 
 STAGE_NAME = "Evaluation Stage"
@@ -55,9 +52,4 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
-
-
-
-
-
 
